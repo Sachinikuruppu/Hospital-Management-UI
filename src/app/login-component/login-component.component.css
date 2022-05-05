@@ -1,0 +1,28 @@
+.my-form{
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+  
+  
+}
+
+.full-width {
+  width: 100%;
+}
+.btn{
+  text-align: center;
+  
+  top: 50%;
+  left:50%;
+}
+.my-card{
+  background-color: #EDEDF9;
+}
+
+.an{
+  width: 100%;
+}
+
+.titleName{
+  text-align: center;
+}

@@ -1,0 +1,39 @@
+
+<mat-toolbar>
+  <span>LOGIN</span>
+</mat-toolbar>
+<mat-card class="my-card-main" >
+
+   <mat-grid-list cols="2" >
+      <mat-grid-tile >
+
+         <mat-card>
+            <img class="an"
+            src="/assets/login.png"
+             />
+      
+         </mat-card>
+      </mat-grid-tile >
+
+      <mat-grid-tile >
+         <mat-card class="my-card" >
+   <mat-card-content >
+      <h1 class="titleName">Log In</h1>
+      <form class="my-form">
+      
+         <mat-form-field appearance="outline" class="full-width">
+            <mat-label>Secret Number</mat-label>
+            <input matInput placeholder="Enter your secret number here">
+          </mat-form-field>
+        
+      </form>
+      
+      
+         <!-- <button mat-raised-button (click)="login()" color="primary" class="btn">LOGIN</button> <br> <br> -->
+ Have you not signed in yet?  <a routerLink="/register"> Register Now</a>
+      
+   </mat-card-content>
+</mat-card>
+   </mat-grid-tile >
+</mat-grid-list>
+</mat-card>

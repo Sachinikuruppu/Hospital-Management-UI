@@ -1,0 +1,129 @@
+ <mat-toolbar>
+  <span>Registration</span>
+</mat-toolbar>
+
+
+<mat-card >
+  
+   
+   <mat-grid-list cols="2" >
+      <mat-grid-tile >
+
+         <mat-card>
+            <img class="an"
+            src="/assets/reg.png"
+             />
+      
+         </mat-card >
+      </mat-grid-tile >
+   <mat-grid-tile >
+   <mat-card class="my-card">
+      <mat-card-header>
+      
+
+        <mat-card-title><h2>Patient Registrations</h2></mat-card-title>
+        <mat-card-subtitle>
+          Please fill in the given fields.
+        </mat-card-subtitle>
+      </mat-card-header>
+      <mat-card-content>
+         <mat-card-content>
+           
+            <form class="my-form">  
+               <table class="table">
+                  <tbody>      <tr> <td>
+               <mat-form-field class="full-width">
+                  <mat-label>First Name</mat-label>
+                  <input  matInput  placeholder="First name"  name="fname"  required>
+               </mat-form-field>
+               <section class="example-section">
+                  <label class="full-width">Gender:</label>
+                  <br>
+                  <br>
+                  <mat-radio-group>
+                     <mat-radio-button class="example-margin" value="after">Male</mat-radio-button> 
+                     <mat-radio-button class="female" value="before">Female</mat-radio-button>
+                    
+                  </mat-radio-group>
+               </section>
+              <br><br>
+               <mat-form-field class="full-width">
+                  <mat-label>Phone Number</mat-label>
+                  <input  matInput  placeholder="eg: +94 762330091" name="Phone" type="number" required>
+               </mat-form-field>
+              
+               <mat-form-field class="full-width">
+                  <mat-label>Email</mat-label>
+                  <input  matInput  placeholder="Email" name="email">
+               </mat-form-field>
+
+               <mat-form-field appearance="outline">
+                  <mat-label>Weight(Kg)</mat-label>
+                  <input matInput placeholder="Weight">
+                  <mat-icon matSuffix>accessibility_new</mat-icon>
+                  
+                
+                </mat-form-field>
+
+               
+             
+          
+            </td>
+              
+               
+               <td>
+                  <mat-form-field class="full-width">
+                     <mat-label>Last Name</mat-label>
+                     <input  matInput  placeholder="First name"  name="fname"  required>
+                  </mat-form-field>
+                  <mat-form-field class="full-width">
+                     <mat-label>Date of Birth</mat-label>
+                     <input matInput [matDatepicker]="picker" placeholder="Choose a date">
+                     <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                     <mat-datepicker #picker></mat-datepicker>
+                  </mat-form-field>
+                  <mat-form-field class="full-width">
+                  <mat-label>Address</mat-label>
+                  <textarea matInput
+            
+           
+            cdkAutosizeMinRows="1"
+            cdkAutosizeMaxRows="5"></textarea>
+               </mat-form-field> 
+               <label class="full-width"> Patient Photo:</label>
+                <input type="file" #UploadFileInput id="fileUpload" name="fileUpload"
+               multiple="multiple" accept="image/*" />  
+               <br>   <br>  <br>
+               <mat-form-field appearance="outline">
+                  <mat-label> Height(feet,inches)</mat-label>
+                  <input matInput placeholder="Weight">
+                  <mat-icon matSuffix>fitness_center</mat-icon>
+                 
+                </mat-form-field>
+            
+            
+            
+            
+
+</td>
+</tr>
+</tbody>
+</table>
+            </form>
+            
+         
+             <button mat-raised-button  color="primary">REGISTER ME</button>
+            
+         </mat-card-content>
+        
+       
+      </mat-card-content>
+  
+     
+    </mat-card>
+   </mat-grid-tile>
+   
+</mat-grid-list>
+
+
+</mat-card>
