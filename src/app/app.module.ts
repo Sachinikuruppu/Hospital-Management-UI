@@ -6,11 +6,15 @@ import {MatGridListModule} from '@angular/material/grid-list';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
+
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RegistrationComponentComponent } from './registration-component/registration-component.component';
 import { LoginComponentComponent } from './login-component/login-component.component';
 import { WelcomeComponentComponent } from './welcome-component/welcome-component.component';
+import { InsuaranceComponentComponent } from './insuarance-component/insuarance-component.component';
+import { TestComponent } from './test/test.component';
+import { HospitalComponentComponent } from './hospital-component/hospital-component.component';
 
 
 
@@ -20,7 +24,10 @@ import { WelcomeComponentComponent } from './welcome-component/welcome-component
     AppComponent,
     RegistrationComponentComponent,
     LoginComponentComponent,
-    WelcomeComponentComponent
+    WelcomeComponentComponent,
+    InsuaranceComponentComponent,
+    TestComponent,
+    HospitalComponentComponent
   ],
   imports: [
     BrowserModule,
@@ -34,7 +41,9 @@ import { WelcomeComponentComponent } from './welcome-component/welcome-component
       { path: 'register', component: RegistrationComponentComponent },
       { path: 'login', component: LoginComponentComponent },
       { path: 'welcome', component: WelcomeComponentComponent },
-    
+      { path: 'insuarance', component: InsuaranceComponentComponent },
+      { path: 'test', component: TestComponent },
+      { path: 'hospital', component:  HospitalComponentComponent },
     ]),
 
   ],

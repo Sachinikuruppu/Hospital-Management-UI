@@ -17,8 +17,31 @@
 }
 .my-card{
   background-color: #EDEDF9;
+  width:1900px;
+  padding:40px 500px!important
+
 }
+.j{
+  /* display:none; */
+  visibility:hidden;
+  /* color: #EDEDF9; */
+  
+}
+
+/* .table{
+  table-layout: fixed;
+width: 100%;
+display: table;
+} */
+/* .td{
+  border-left: 20px solid #FFF !important;
+} */
+
+ /* .tr>.td {
+   border:0px !important;
+ }  */
 
 .female{
   margin-left: 10px;;
 }
+
