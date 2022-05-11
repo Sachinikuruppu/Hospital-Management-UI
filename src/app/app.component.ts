@@ -14,6 +14,7 @@ export interface Tile {
 })
 export class AppComponent {
   title = 'ui-angular-material';
+ 
   // tiles: Tile[] = [
   //   {text: 'Two', cols: 1, rows: 4, color: 'lightgreen'},
   //   {text: 'One', cols: 3, rows: 4, color: 'lightblue'}

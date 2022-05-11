@@ -3,13 +3,12 @@
    background-size:cover; 
    background-repeat: no-repeat;
     background-position:center; 
-
    height:700px;
  
    
 }
 
-.btn{
+ .btn{
     border-radius: 8px;
     font-size: 30px;
     padding: 14px 40px;
@@ -23,7 +22,7 @@
     height:200px;
     width:690px;
     border-radius: 12px;
-    /* margin-top: 10px; */
+     margin-top: 10px; 
     margin-left: 400px;
     
 }
@@ -38,6 +37,7 @@
     height:200px;
     width:1515px;
     margin-top: 100px;
+    
  
 }
 
@@ -46,12 +46,13 @@
     width: 520px;
     height: 350px;
     margin-bottom: 24px;
+} 
+
+.line{
+    border-left: 6px solid black;
+    height: 170px;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 380px;
 }
 
-/* .dr{
-    margin-left: 442px;
-    position:left;
-    width:210px;
-    height:300px;
-    margin-top: -270px;
- } */
